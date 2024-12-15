@@ -178,3 +178,36 @@ section {
 	font-size: 1.6rem;
 	font-family: 'Montserrat', sans-serif;
 }
+
+.footer {
+	text-align: center;
+	background-color: var(--dark-blue);
+}
+
+.footer__title {
+	font-size: 2.8rem;
+	color: var(--white);
+}
+
+.footer-info__title {
+	margin-top: 2em;
+	font-size: 1.8rem;
+	color: var(--dark-gold);
+}
+
+.footer-info__text,
+.footer-info__list-link {
+	margin-top: 1em;
+	font-size: 1.6rem;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: var(--light-gray);
+}
+
+.footer-info__list {
+	list-style: none;
+}
+
+.footer-info__list-item {
+	margin-top: 1em;
+}
