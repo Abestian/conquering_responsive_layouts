@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* custom variables */
+:root {
+	/* colors */
+	--very-dark-blue: #2e323f;
+	--dark-blue: #3b4050;
+	--gray: #6f737f;
+	--white: #ffffff;
+	--dark-gold: #a59678;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1,
+h2 {
+	margin-top: 0;
+	line-height: 1.6;
+}
+
+section {
+	padding: 3em 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 85%;
+	max-width: 1200px;
+}
+
+/* .row {
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} */
+
+.burger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.65em 1em;
+	cursor: pointer;
+}
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5em;
+	padding: 1em 0;
+	background-color: var(--very-dark-blue);
+}
+
+.nav__list {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	width: 100%;
+	height: 100vh;
+	z-index: 2;
+}
