@@ -146,3 +146,35 @@ section {
 	margin-top: 3em;
 }
 
+.description__title {
+	font-size: 3rem;
+	color: var(--dark-gold);
+}
+
+.description__text {
+	margin-top: 1em;
+	font-size: 1.8rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.description__image {
+	margin: 2em 0;
+}
+
+.element {
+	margin-top: 2em;
+	padding: 2em 3em;
+	text-align: center;
+	color: var(--white);
+	background-color: var(--very-dark-blue);
+}
+
+.element__title {
+	font-size: 2.6rem;
+}
+
+.element__text {
+	margin-top: 1em;
+	font-size: 1.6rem;
+	font-family: 'Montserrat', sans-serif;
+}
