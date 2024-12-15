@@ -286,6 +286,7 @@ section {
 	/* section - description */
 
 	.description .row {
+		margin-top: 2em;
 		align-items: flex-start;
 		gap: 0.75em;
 	}
@@ -297,5 +298,90 @@ section {
 		justify-content: center;
 		flex-wrap: wrap;
 		gap: 3em;
+	}
+}
+
+@media (width > 1000px) {
+	/* header */
+
+	.header {
+		padding: 8em 0;
+	}
+
+	.header__title {
+		font-size: 9rem;
+	}
+
+	.header__text,
+	.header__button {
+		font-size: 2.4rem;
+	}
+
+	/* section - info */
+
+	.info {
+		padding: 5em 0;
+	}
+
+	.info .row {
+		gap: 5em;
+	}
+
+	.info__title {
+		font-size: 3rem;
+	}
+
+	.info__text {
+		font-size: 1.8rem;
+	}
+
+	/* section - description */
+
+	.description__title {
+		font-size: 3.6rem;
+	}
+
+	.description__text {
+		font-size: 2.1rem;
+	}
+
+	.element__title {
+		font-size: 3rem;
+	}
+
+	.element__text {
+		font-size: 1.8rem;
+	}
+
+	/* footer */
+
+	.footer__title {
+		font-size: 6rem;
+	}
+
+	.footer-info__title {
+		font-size: 2.4rem;
+	}
+
+	.about {
+		flex-grow: 3;
+		flex-shrink: 1;
+	}
+
+	.footer .col {
+		flex-grow: 2;
+		flex-shrink: 0;
+	}
+
+	.footer .row {
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		gap: 5em;
+	}
+
+	.footer .col,
+	.footer .about {
+		text-align: left;
+		align-items: flex-start;
 	}
 }
