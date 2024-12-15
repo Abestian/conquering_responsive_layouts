@@ -11,33 +11,35 @@
 <body>
 
     <nav class="nav">
-        <div class="burger">
-            <svg width="40" height="40" viewBox="0 0 10 10">
-                <line x1="1" y1="2" x2="9" y2="2" stroke="white" stroke-linecap="round" />
-                <line x1="1" y1="5" x2="9" y2="5" stroke="white" stroke-linecap="round" />
-                <line x1="1" y1="8" x2="9" y2="8" stroke="white" stroke-linecap="round" />
-            </svg>
+        <div class="container row">
+            <div class="burger">
+                <svg width="40" height="40" viewBox="0 0 10 10">
+                    <line x1="1" y1="2" x2="9" y2="2" stroke="white" stroke-linecap="round" />
+                    <line x1="1" y1="5" x2="9" y2="5" stroke="white" stroke-linecap="round" />
+                    <line x1="1" y1="8" x2="9" y2="8" stroke="white" stroke-linecap="round" />
+                </svg>
+            </div>
+            <a href="#" class="nav__logo">
+                <img src="./img/logo.svg" alt="CRL logo">
+            </a>
+            <ul class="nav__list row">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">about</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">contact</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">sign in</a>
+                </li>
+                <li class="nav__item nav__item--button">
+                    <a href="#" class="nav__link">sign up</a>
+                </li>
+            </ul>
         </div>
-        <a href="#" class="logo">
-            <img src="./img/logo.svg" alt="CRL logo">
-        </a>
-        <ul class="nav__list">
-            <li class="nav__item">
-                <a href="#" class="nav__link">home</a>
-            </li>
-            <li class="nav__item">
-                <a href="#" class="nav__link">about</a>
-            </li>
-            <li class="nav__item">
-                <a href="#" class="nav__link">contact</a>
-            </li>
-            <li class="nav__item">
-                <a href="#" class="nav__link">sign in</a>
-            </li>
-            <li class="nav__item nav__item--button">
-                <a href="#" class="nav__link">sign up</a>
-            </li>
-        </ul>
     </nav>
 
     <section class="header">
@@ -74,7 +76,7 @@
     </section>
 
     <section class="description">
-        <div class="container row">
+        <div class="container">
             <div class="col">
                 <h2 class="description__title">It doesn't have to be so hard</h2>
                 <p class="description__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
@@ -87,7 +89,7 @@
                     obcaecati, neque maiores adipisci accusamus fuga harum aut ullam itaque? Cum amet perspiciatis neque
                     magni eius nemo harum error, fugiat maxime hic repudiandae iste eveniet aut.</p>
             </div>
-            <div class="col">
+            <div class="row">
                 <div class="element">
                     <h3 class="element__title">Break it up</h3>
                     <div class="element__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ex sit
