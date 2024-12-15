@@ -14,6 +14,7 @@
 	--very-dark-blue: #2e323f;
 	--dark-blue: #3b4050;
 	--gray: #6f737f;
+	--light-gray: #ecebe7;
 	--white: #ffffff;
 	--dark-gold: #a59678;
 }
@@ -38,7 +39,7 @@ h2 {
 }
 
 section {
-	padding: 3em 0;
+	padding: 4em 0;
 }
 
 .container {
@@ -107,7 +108,7 @@ section {
 	font-size: 1.8rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	color: #fff;
+	color: var(--light-gray);
 }
 
 .header__button {
@@ -121,3 +122,27 @@ section {
 	color: var(--white);
 	background-color: var(--dark-gold);
 }
+
+.info {
+	background-color: var(--light-gray);
+}
+
+.info__item {
+	text-align: center;
+}
+
+.info__title {
+	font-size: 2.6rem;
+	color: var(--dark-gold);
+}
+
+.info__text {
+	margin-top: 0.75em;
+	font-size: 1.6rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.info__item + .info__item {
+	margin-top: 3em;
+}
+
